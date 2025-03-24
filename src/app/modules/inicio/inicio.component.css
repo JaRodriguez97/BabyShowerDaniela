@@ -203,7 +203,7 @@
     animation-delay: 5s;
     display: flex;
     flex-direction: column;
-    margin-top: -10svh;
+    margin-top: -15svh;
     line-height: 1em;
   }
 
@@ -236,7 +236,7 @@
     }
     100% {
       opacity: 1;
-      transform: translateY(50%);
+      transform: translateY(40%);
     }
   }
 
