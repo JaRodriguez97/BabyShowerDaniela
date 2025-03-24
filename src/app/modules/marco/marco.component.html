@@ -1,0 +1,48 @@
+<section class="container">
+  <header>
+    <img
+      src="../../../assets/img/protagonista/anto1.jpeg"
+      alt="antonella"
+      class="protagonista"
+    />
+    <img
+      src="../../../assets/img/principal/marco.webp"
+      alt="marco principal"
+      class="marco"
+    />
+  </header>
+
+  <main>
+    <h2 #titulo>
+      <span>Protagonista</span><br />
+      Nuestra hermosa <strong>Sirenita</strong>
+    </h2>
+    <img
+      src="../../../assets/img/principal/principal1.webp"
+      alt=""
+      class="princiapl"
+    />
+
+    <div class="datosInfo">
+      <img
+        src="../../../assets/img/personaje4/gratis-png-caballo-de-mar2.png"
+        alt="caballito2"
+        class="caballito2"
+      />
+      <address>
+        <p>Acompañanos a Celebrar:</p>
+        <strong>Alfonso López 2</strong>
+        <span>Cra. 7e bis # 73 - 68</span>
+        <strong>5 abril a las 3:30pm</strong>
+      </address>
+    </div>
+  </main>
+
+  <footer>
+    <img
+      *ngFor="let i of [1, 2, 3, 4, 5].reverse()"
+      [src]="'../../../assets/img/fondo/decoracion' + i + '.png'"
+      alt="decoracion"
+    />
+  </footer>
+</section>

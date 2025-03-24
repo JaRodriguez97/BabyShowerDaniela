@@ -1,0 +1,211 @@
+section.container {
+  background-image: url("../../../assets/img/fondo/fondo2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100svh;
+  width: 100vw;
+}
+
+header .protagonista {
+  position: absolute;
+  max-width: 250px;
+  max-height: 260px;
+  min-width: 220px;
+  width: 50vw;
+  object-fit: cover;
+  top: 10px;
+  left: 0;
+  right: 100px;
+  animation: opacity 2s linear both 1s;
+}
+
+@media (max-width: 365px) {
+  header .protagonista {
+    min-width: 200px;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+header .marco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+  animation: to-down 1s linear both;
+  z-index: 5;
+}
+
+@keyframes to-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-50svh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main h2 {
+  position: absolute;
+  top: 35svh;
+  right: 20px;
+  text-align: right;
+  font-size: 50px;
+  width: 80%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  animation: to-left 1s linear both 1s;
+  transition: all 0.3s ease-in-out;
+  z-index: 6;
+}
+
+@keyframes to-left {
+  0% {
+    opacity: 0;
+    transform: translateX(50vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+main h2 span {
+  font-size: 80px;
+}
+
+main img.principal {
+  position: absolute;
+  top: 40svh;
+  right: 75vw;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  animation: to-up 1s linear both 1.5s;
+  z-index: 5;
+}
+
+@keyframes to-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50svh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main .datosInfo {
+  animation: to-left 1s linear both 5s;
+  right: 10px;
+  position: absolute;
+  bottom: 10svh;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 50vh;
+  width: 75vw;
+  justify-content: right;
+  align-items: flex-end;
+  text-align: right;
+  z-index: 6;
+  padding-right: 10px;
+}
+
+main .datosInfo address {
+  font-size: 1.88em;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+}
+
+@media (max-width: 500px) {
+  main .datosInfo address {
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 390px) {
+  main .datosInfo address {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 350px) {
+  main .datosInfo address {
+    font-size: 1.3em;
+  }
+}
+
+main .datosInfo address p {
+  width: 120%;
+  text-align: left;
+  margin-left: -10vw;
+  text-shadow: 0 5px 5px #000;
+}
+
+@media (max-height: 600px) and (max-width: 500px) {
+  main h2 {
+    font-size: 30px;
+  }
+
+  main .datosInfo {
+    justify-content: center;
+  }
+
+  main .datosInfo address p {
+    margin: 0;
+  }
+
+  main .caballito2 {
+    position: absolute;
+    bottom: 20px;
+    right: -15vw;
+  }
+
+  footer {
+    height: 150px;
+  }
+}
+
+main .datosInfo address span {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+main .caballito2 {
+  width: 200px;
+  height: 200px;
+  animation: to-scape 1s linear both 6.5s;
+  z-index: 4;
+}
+
+@keyframes to-scape {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    position: absolute;
+    transform: translateY(-100svh);
+  }
+}
+
+footer {
+  bottom: 0;
+  animation: none;
+}

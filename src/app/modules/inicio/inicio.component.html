@@ -1,0 +1,27 @@
+<div class="shadow-background"></div>
+<section class="container">
+  <header>
+    <h1>UNA OSITA DE AMOR ESTÁ EN CAMINO</h1>
+  </header>
+
+  <main>
+    <img
+      src="../../../assets/img/principal/principal2.webp"
+      class="principal"
+      alt="principal2"
+    />
+    <h2><span>Baby Shower</span> de <strong>Daniela</strong></h2>
+    <img
+      class="personaje2"
+      src="../../../assets/img/personaje2/personaje2.webp"
+      alt="personaje2"
+    />
+  </main>
+  <footer>
+    <img
+      *ngFor="let i of [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]"
+      [src]="'../../../assets/img/fondo/decoracion' + i + '.webp'"
+      alt="decoracion"
+    />
+  </footer>
+</section>
