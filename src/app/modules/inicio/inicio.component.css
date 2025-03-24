@@ -132,7 +132,7 @@
   font-size: 3em;
   margin: 0 auto;
   text-wrap: pretty;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   animation: slide-bottom 1s linear both 1s;
   z-index: 3;
   position: relative;
@@ -244,7 +244,7 @@
     width: 150px;
     height: 150px;
     position: absolute;
-    left: 80vw;
+    left: 0;
     bottom: 35svh;
     top: auto;
     animation: slide-left-rotate 1s linear both 4s;
@@ -259,7 +259,7 @@
     }
     100% {
       opacity: 1;
-      transform: translateX(-80vw) translateY(70svh) rotate(360deg);
+      transform: translateX(50vw) translateY(85svh) rotate(360deg);
     }
   }
 }
