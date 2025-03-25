@@ -37,7 +37,7 @@ span {
 }
 
 strong {
-  font-size: clamp(4rem, 10vw, 8rem);
+  font-size: 15vw;
   -webkit-text-stroke: 0.5px white; /* Grosor y color del borde */
   color: var(--color-secondary);
   font-weight: 500;
