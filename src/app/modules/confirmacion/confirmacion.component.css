@@ -164,6 +164,12 @@ main .confirmacion address {
   display: flex;
   flex-direction: column;
 }
+main .confirmacion address small {
+  background: #fff;
+  color: #000;
+  width: 100%;
+  border-radius: 10px;
+}
 
 main .confirmacion address > span {
   font-size: 12vw;
