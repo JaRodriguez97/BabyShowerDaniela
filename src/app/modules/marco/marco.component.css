@@ -89,13 +89,13 @@ main h2 span {
 
 main img.principal {
   position: absolute;
-  top: 40svh;
-  right: 75vw;
+  bottom: 10svh;
+  right: 60vw;
   width: 250px;
   height: 250px;
   object-fit: cover;
   animation: to-up 1s linear both 1.5s;
-  z-index: 5;
+  z-index: 2;
 }
 
 @keyframes to-up {
@@ -117,7 +117,7 @@ main .datosInfo {
   display: flex;
   flex-direction: column-reverse;
   height: 50vh;
-  width: 75vw;
+  width: 60vw;
   justify-content: right;
   align-items: flex-end;
   text-align: right;
@@ -126,13 +126,13 @@ main .datosInfo {
 }
 
 main .datosInfo address {
-  font-size: clamp(3em, 5vw, 6em);
+  font-size: clamp(2em, 5vw, 6em);
   display: flex;
   flex-direction: column;
   line-height: 1.5em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 770px) {
   main .datosInfo address {
     font-size: 1.7em;
   }
