@@ -33,18 +33,15 @@ span {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: italic;
-  text-shadow: -3px -3px 0 var(--color-secondary),
-    3px -3px 0 var(--color-secondary), -3px 3px 0 var(--color-secondary),
-    3px 3px 0 var(--color-secondary);
+  -webkit-text-stroke: 0.5px var(--color-secondary); /* Grosor y color del borde */
   font-weight: bold;
 }
 
 strong {
   font-size: 1.5em;
-  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px 2px 0 #fff;
+  -webkit-text-stroke: 0.5px white; /* Grosor y color del borde */
   color: var(--color-secondary);
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 footer {

@@ -45,6 +45,7 @@ section h3 span {
 
 section a {
   background-color: #fff;
+  color: #ed3a7d;
   color: var(--color-primary);
   padding: 0.5rem 1rem;
   border-radius: 1rem;

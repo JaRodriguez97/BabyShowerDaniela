@@ -9,15 +9,14 @@ section.container {
 
 header .protagonista {
   position: absolute;
-  max-width: 250px;
-  max-height: 260px;
-  min-width: 220px;
-  width: 50vw;
+  width: 320px;
   object-fit: cover;
-  top: 10px;
-  left: 0;
-  right: 100px;
+  top: 20px;
+  left: 30px;
+  right: 0;
   animation: opacity 2s linear both 1s;
+  margin: 0 auto;
+  border-radius: 40px;
 }
 
 @media (max-width: 365px) {
@@ -40,14 +39,13 @@ header .marco {
   top: 0;
   left: 0;
   right: 0;
-  margin-right: auto;
+  margin: 0 auto;
   width: 100%;
   max-width: 400px;
-  height: auto;
-  object-fit: contain;
   border-radius: 20px;
   animation: to-down 1s linear both;
   z-index: 5;
+  aspect-ratio: 4 / 3;
 }
 
 @keyframes to-down {
@@ -128,7 +126,7 @@ main .datosInfo {
 }
 
 main .datosInfo address {
-  font-size: 1.88em;
+  font-size: clamp(3em, 5vw, 6em);
   display: flex;
   flex-direction: column;
   line-height: 1.5em;
@@ -172,7 +170,7 @@ main .datosInfo address p {
     margin: 0;
   }
 
-  main .caballito2 {
+  main .personaje4-2 {
     position: absolute;
     bottom: 20px;
     right: -15vw;
@@ -188,7 +186,7 @@ main .datosInfo address span {
   margin-right: 10px;
 }
 
-main .caballito2 {
+main .personaje4-2 {
   width: 200px;
   height: 200px;
   animation: to-scape 1s linear both 6.5s;
@@ -203,9 +201,4 @@ main .caballito2 {
     position: absolute;
     transform: translateY(-100svh);
   }
-}
-
-footer {
-  bottom: 0;
-  animation: none;
 }
