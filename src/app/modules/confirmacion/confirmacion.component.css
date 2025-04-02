@@ -1,5 +1,5 @@
 section.container {
-  background-image: url("../../../assets/img/fondo/fondo3.jpg");
+  background-image: url("../../../assets/img/fondo/fondo3.webp");
   background-size: 100vw 100svh;
   background-position: center;
   background-repeat: no-repeat;
@@ -164,6 +164,7 @@ main .confirmacion address {
   display: flex;
   flex-direction: column;
 }
+
 main .confirmacion address small {
   background: #fff;
   color: #000;
@@ -171,7 +172,7 @@ main .confirmacion address small {
   border-radius: 10px;
 }
 
-main .confirmacion address > span {
+main .confirmacion address span {
   font-size: 12vw;
 }
 
