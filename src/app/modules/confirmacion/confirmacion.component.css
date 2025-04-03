@@ -135,7 +135,7 @@ main .confirmacion {
   bottom: 25svh;
   animation: to-top 1s linear both 10s;
   z-index: 10;
-  gap: 5vh;
+  gap: 5svh;
 }
 
 @keyframes to-top {
