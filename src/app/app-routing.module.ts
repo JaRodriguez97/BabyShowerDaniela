@@ -12,13 +12,13 @@ const routes: Routes = [
     path: 'inicio',
     loadChildren: () =>
       import('./modules/inicio/inicio.module').then((m) => m.InicioModule),
-    title: 'Algo Ocurre Bajo el Mar',
+    title: 'Bienvenido al Baby Shower de la Pequeña Daniela',
   },
   {
     path: 'marco',
     loadChildren: () =>
       import('./modules/marco/marco.module').then((m) => m.MarcoModule),
-    title: 'Protagonista Cumple 1 añito',
+    title: 'Protagonista del Baby Shower',
   },
   {
     path: 'confirmacion',
@@ -26,7 +26,7 @@ const routes: Routes = [
       import('./modules/confirmacion/confirmacion.module').then(
         (m) => m.ConfirmacionModule
       ),
-    title: 'Confirma tu Asistencia al Mejor Evento de Atlantica',
+    title: 'Confirma tu Asistencia al Mejor Baby Shower',
   },
   {
     path: '**',
