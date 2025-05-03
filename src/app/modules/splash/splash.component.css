@@ -16,8 +16,8 @@ section {
 }
 
 section img {
-  width: 250px;
-  height: auto;
+  width: auto;
+  height: 35svh;
   object-fit: cover;
   margin: 0 auto;
   right: 0;
@@ -36,7 +36,7 @@ section h3 {
   padding: 10px 10px 20px;
   background: linear-gradient(-45deg, var(--color-primary), transparent);
   height: fit-content;
-  line-height: 1.2em;
+  line-height: 10svh;
 }
 
 section h3 span {
